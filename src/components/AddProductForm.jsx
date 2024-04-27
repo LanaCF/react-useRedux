@@ -51,7 +51,7 @@ export const AddProductForm = ({ toggleForm }) => {
                 
                 <input onChange={(e) => setDescrProd(e.target.value)} type="text" placeholder="descr" value={descrProd} />
                 
-                <input onChange={(e) => setImgProd(e.target.value)} type="text" placeholder="img/img1.jpg" value={imgProd} />
+                <input onChange={(e) => setImgProd(e.target.value)} type="text" placeholder="/img/img1.jpg" value={imgProd} />
               
               </label>
 
