@@ -37,7 +37,7 @@ export const BasketProducts = ({ isOpen, onClose }) => {
                         <div key={item.id} className="basket__product">
                             <div className="basket__product-info">
                                 <div className="basket__img-box">
-                                    <img src={`${process.env.PUBLIC_URL}/${item.img}`} alt={item.title} className='basket__img' />
+                                    <img src={`${process.env.PUBLIC_URL}${item.img}`} alt={item.title} className='basket__img' />
                                 </div>
                                 
                                 <div className="basket__product-details">

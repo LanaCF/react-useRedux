@@ -4,9 +4,9 @@ const productSlice = createSlice({
   name: 'products',
   initialState: {
     prodsList: [
-      { id: 1, price: 1000, title: 'prod1', descr: 'descr 1', img: 'img/img1.jpg', publish: true },
-      { id: 2, price: 2000, title: 'prod2', descr: 'descr 2', img: 'img/img2.jpg', publish: true },
-      { id: 3, price: 3000, title: 'prod3', descr: 'descr 3', img: 'img/img3.jpg', publish: true },
+      { id: 1, price: 1000, title: 'prod1', descr: 'descr 1', img: '/img/img1.jpg', publish: true },
+      { id: 2, price: 2000, title: 'prod2', descr: 'descr 2', img: '/img/img2.jpg', publish: true },
+      { id: 3, price: 3000, title: 'prod3', descr: 'descr 3', img: '/img/img3.jpg', publish: true },
     ],
 
     cartProdsList: [],
