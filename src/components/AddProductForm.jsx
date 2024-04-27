@@ -19,7 +19,7 @@ export const AddProductForm = ({ toggleForm }) => {
       price: priceProd,
       title: titleProd,
       descr: descrProd,
-      img: imgProd ? process.env.PUBLIC_URL + imgProd : process.env.PUBLIC_URL + 'img/not.png',
+      img: imgProd ? process.env.PUBLIC_URL + imgProd : process.env.PUBLIC_URL + '/img/not.png',
       publish: true,
     }
 
