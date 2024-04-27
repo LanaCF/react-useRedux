@@ -11,11 +11,13 @@ export const Product = (props) => {
   const handleAddToCart = () => {
     dispatch( addToCart({ product: props.data }) );
   };
+
+  const urlNotImg = '/img/not.png';
   
   return (
     <div className="product" data-id={ id }>
       <div className="product__img-block padding-box">
-        <img src={ img ? process.env.PUBLIC_URL + img : process.env.PUBLIC_URL + '/img/not.png' } alt="" className='product__img' />
+        <img src={ img ? process.env.PUBLIC_URL + img : process.env.PUBLIC_URL + urlNotImg } alt="" className='product__img' />
       </div>
 
       <h3 className="product__title padding-box">{ title }</h3>
